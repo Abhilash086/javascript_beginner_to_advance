@@ -42,3 +42,11 @@ We can declare variables in 3 ways.
 2. Code execution phase
 
 Ref : [Code Execution in Javascript](https://youtu.be/iLWTnMzWtj4?si=Se7z5ggNP6GmGTTm)
+
+## Dialogue boxes in JS.
+
+- alert("Your message here") --> returns undefined
+- confirm("Your message here") --> return true or false.
+- prompt("Your message here") --> Asks user to input something and returns users text.
+
+
