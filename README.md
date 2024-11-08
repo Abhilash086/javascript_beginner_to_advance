@@ -18,3 +18,8 @@
 - symbol
 
 typeof NaN ==> number   :open_mouth:
+
+### Non Primitives are of 2 types
+
+- Object
+- Array
