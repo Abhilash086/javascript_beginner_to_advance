@@ -17,4 +17,4 @@
 - null
 - symbol
 
-typeof NaN ==> number   :U+1F62F:
+typeof NaN ==> number   :open_mouth:
