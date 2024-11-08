@@ -16,3 +16,5 @@
 - undefined
 - null
 - symbol
+
+typeof NaN ==> number   :U+1F62F:
