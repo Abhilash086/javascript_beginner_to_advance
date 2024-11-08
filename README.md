@@ -66,7 +66,8 @@ Result: 'e'
 - trim()
 - trimStart()
 - trimEnd()
-- Methods (With Argument)
+
+## Methods (With Argument)
 - includes()
 - indexOf()
 - replace()
