@@ -1,5 +1,4 @@
 # Javascript_Beginner_to_Advance
-:javascript: 
 
 Brandon Eich created this first version of Javascript language in 1995 within 10 days. :zipper_mouth_face: surprising right. At first this language is called "Mocha" later it was changed to "Livescript" at the end it was changed to Javascript.
 
