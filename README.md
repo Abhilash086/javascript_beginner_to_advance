@@ -2,10 +2,10 @@
 
 ## Datatypes in JavaScript
 
--number
--boolean
--string
--bigint
--undefined
--null
--symbol
+- number
+- boolean
+- string
+- bigint
+- undefined
+- null
+- symbol
