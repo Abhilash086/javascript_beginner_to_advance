@@ -17,7 +17,8 @@
 - null
 - symbol
 
-typeof NaN ==> number   :open_mouth:
+### typeof NaN ==> number   :open_mouth:
+### typeof null ==> object   :open_mouth:
 
 ### Non Primitives are of 2 types
 
