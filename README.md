@@ -43,10 +43,37 @@ We can declare variables in 3 ways.
 
 Ref : [Code Execution in Javascript](https://youtu.be/iLWTnMzWtj4?si=Se7z5ggNP6GmGTTm)
 
-## Dialogue boxes in JS.
+## Dialogue boxes in JavaScript.
 
 - alert("Your message here") --> returns undefined
 - confirm("Your message here") --> return true or false.
 - prompt("Your message here") --> Asks user to input something and returns users text.
 
+## String Methods and Properties
 
+Before starting string methods and properties we need know that strings are indexed. So basically we can access any single character of a string by doing something like this.
+
+Expression: 'Hello World'[1]
+
+Result: 'e'
+
+### There is only one property that exists.
+- length
+
+## Methods (Without Argument)
+- toUpperCase()
+- toLowerCase()
+- trim()
+- trimStart()
+- trimEnd()
+- Methods (With Argument)
+- includes()
+- indexOf()
+- replace()
+- replaceAll()
+- concat()
+- padStart()
+- padEnd()
+- charAt()
+- charCodeAt()
+- split()
