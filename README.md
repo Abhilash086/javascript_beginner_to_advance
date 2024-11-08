@@ -24,3 +24,12 @@
 
 - Object
 - Array
+
+## Variables in JavaScript
+
+Javascript variables is just a name of the storage location of the values.
+
+We can declare variables in 3 ways.
+1. Using ** let ** keyword
+2. Using ** const ** keyword
+3. Using ** var ** keyword
