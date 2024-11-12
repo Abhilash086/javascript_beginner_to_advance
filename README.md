@@ -104,6 +104,12 @@ Object.freeze(user)  -->  prevents user object from adding, deleting and modifyi
 
 ## Shallow copy vs Deep copy
 
+In Shallow copy nested Objects and Arrays are still referred to the Original Object, So the changes made in nested object of copied object will take change in original object as well.  
+
+The below methods are used for shallow copy
+1. Spread operator ...
+2. Object.assign()
+
 Spread operator -->  Three dots ...  
 Ex: user1 = {name: "Carty", age: 23}  
     user2 = {...user1}  --> Copies user1 properties inside user2  
