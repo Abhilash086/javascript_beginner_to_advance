@@ -104,6 +104,7 @@ Object.freeze(user)  -->  prevents user object from adding, deleting and modifyi
 
 ## Shallow copy vs Deep copy
 
-Spread operator -->  Three dots ...
-Ex: user1 = {name: "Carty", age: 23}
-    user2 = {...user1}  --> Copies user1 properties inside user2
+Spread operator -->  Three dots ...  
+Ex: user1 = {name: "Carty", age: 23}  
+    user2 = {...user1}  --> Copies user1 properties inside user2  
+    
