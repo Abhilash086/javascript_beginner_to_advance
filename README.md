@@ -87,3 +87,18 @@ Ex: const user = {}   --> creates an empty object
 Object.seal(user) --> prevents user object from adding and deleting properties but can modify existing properties.
 
 Object.freeze(user)  -->  prevents user object from adding, deleting and modifying the properties.
+
+## Basic Array Methods
+
+- pop()
+- push()
+- shift()
+- unshift()
+- concat()
+- indexOf()
+- includes()
+- reverse()
+- sort()
+- slice()
+- splice()
+
