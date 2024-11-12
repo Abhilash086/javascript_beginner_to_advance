@@ -104,6 +104,8 @@ Object.freeze(user)  -->  prevents user object from adding, deleting and modifyi
 
 ## Shallow copy vs Deep copy
 
+### Shallow Copy
+
 In Shallow copy nested Objects and Arrays are still referred to the Original Object, So the changes made in nested object of copied object will take change in original object as well.  
 
 The below methods are used for shallow copy
@@ -119,3 +121,14 @@ Ex: const user2 = {}
      Object.assign(user2, user1) ---> Copies user1 properties in user2  
 
 Spread operator was implemented after ES6.
+
+### Deep copy
+
+In Deep copy nested objects and nested arrays copied from original object are independently created which means change made in nested object of copied object doesnt change in original object.  
+
+The common method used for deep copy is JSON.parse() and JSON.stringify().  
+
+Ex: user1 = {name: "Carty", age: 23}
+  const user2 = JSON.parse(JSON.stringify(user1)); --> Creates deepCopy  
+
+  
