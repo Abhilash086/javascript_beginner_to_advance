@@ -108,3 +108,8 @@ Spread operator -->  Three dots ...
 Ex: user1 = {name: "Carty", age: 23}  
     user2 = {...user1}  --> Copies user1 properties inside user2  
     
+Before spread Operator we were using Object.assign() method to copy.  
+Ex: const user2 = {}  
+     Object.assign(user2, user1) ---> Copies user1 properties in user2  
+
+Spread operator was implemented after ES6.
