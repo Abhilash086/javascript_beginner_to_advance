@@ -102,3 +102,5 @@ Object.freeze(user)  -->  prevents user object from adding, deleting and modifyi
 - slice()
 - splice()
 
+## Shallow copy vs Deep copy
+
