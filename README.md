@@ -126,7 +126,7 @@ Spread operator was implemented after ES6.
 
 In Deep copy nested objects and nested arrays copied from original object are independently created which means change made in nested object of copied object doesnt change in original object.  
 
-The common method used for deep copy is JSON.parse() and JSON.stringify().  
+The common method used for deep copy is **JSON.parse()** and **JSON.stringify()**.  
 
 Ex: user1 = {name: "Carty", age: 23}
   const user2 = JSON.parse(JSON.stringify(user1)); --> Creates deepCopy  
