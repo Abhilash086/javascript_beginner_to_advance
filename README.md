@@ -78,3 +78,12 @@ Result: 'e'
 - charAt()
 - charCodeAt()
 - split()
+
+## Objects
+
+We can create objects using curly braces {}.
+Ex: const user = {}   --> creates an empty object
+
+Object.seal(user) --> prevents user object from adding and deleting properties but can modify existing properties.
+
+Object.freeze(user)  -->  prevents user object from adding, deleting and modifying the properties.
