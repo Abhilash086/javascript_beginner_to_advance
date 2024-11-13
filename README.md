@@ -148,3 +148,14 @@ Ex: const sayHi = function() {
     }
 
 ### NOTE: Both are called function definition
+
+## Lexical scope and Closures  
+
+  Inner function having access of variables declared in outer fuction is known as lexical scope.
+
+  Ex:  function outer(){  
+        let num = 10  
+        function inner(){  
+            console.log(num)  
+        }
+      }
