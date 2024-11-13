@@ -154,4 +154,8 @@ Ex: const sayHi = function() {
   Inner function having access of variables declared in outer fuction is known as lexical scope.
 
 Ex:  
-![Lexical Scope Image](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/c2172ede5865042d24dc2f8d9f2cb5f4f2475be2/lexical%20scope.png)
+![Lexical Scope Image](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/c2172ede5865042d24dc2f8d9f2cb5f4f2475be2/lexical%20scope.png)  
+
+### Closures  
+If we return the inner function at the end of outer function, The inner function will still have the access to outer functions variables because of lexical scoping.  
+
