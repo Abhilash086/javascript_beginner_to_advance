@@ -146,3 +146,5 @@ Here we assign the function to a variable so hoisting will not happen here and i
 Ex: const sayHi = function() {  
         console.log("Hello")  
     }
+
+### NOTE: Both are called function definition
