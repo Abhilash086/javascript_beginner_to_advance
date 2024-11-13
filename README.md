@@ -153,9 +153,5 @@ Ex: const sayHi = function() {
 
   Inner function having access of variables declared in outer fuction is known as lexical scope.
 
-  Ex:  function outer(){  
-        let num = 10  
-        function inner(){  
-            console.log(num)  
-        }
-      }
+Ex:  
+![Lexical Scope Image](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/c2172ede5865042d24dc2f8d9f2cb5f4f2475be2/lexical%20scope.png)
