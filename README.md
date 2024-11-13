@@ -131,4 +131,17 @@ The common method used for deep copy is **JSON.parse()** and **JSON.stringify()*
 Ex: user1 = {name: "Carty", age: 23}
   const user2 = JSON.parse(JSON.stringify(user1)); --> Creates deepCopy  
 
-  
+## Functions
+
+### Function declaration  
+Here hoisting will happen and you can use the below function before defining, Since it is already created in the memory during memory creation phase  
+
+Ex: function greetings() {
+        console.log("Hello")
+    }
+
+### Function Expression  
+Here we assign the function to a variable so hoisting will not happen here and if we try to use it before declaration it will throw error.
+Ex: const sayHi = function() {
+        console.log("Hello")
+    }
