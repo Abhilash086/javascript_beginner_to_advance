@@ -159,5 +159,9 @@ Ex:
 ### Closures  
 If we return the inner function at the end of outer function, The inner function will still have the access to outer functions variables because of lexical scoping.  
 
-### Callback Function  
-A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+### Higher Order Function and Callback Function  
+A higher-order function in JavaScript is a function that uses another function as an argument  
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.  
+
+Ex:  
+![image of code](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/main/Screenshot%202024-11-14%20131808.png?raw=true)
