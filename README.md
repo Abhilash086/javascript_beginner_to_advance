@@ -170,7 +170,9 @@ Ex:
 ## setTimeout() and setInterval()  
 
 The above 2 methods are an example of Higher order function.  
-In setTimeout() it executes the function/code after the specified time delay. We have another method related to it which is **clearTimeout()**, This function returns an **ID** we can use that ID to stop the execution.
+
+In setTimeout() it executes the function/code after the specified time delay. We have another method related to it which is **clearTimeout()**, This function returns an **ID** we can use that ID to stop the execution.  
+
 Ex:  
 setTimeout(function(){  
 &emsp; console.log("Hello")  
@@ -178,6 +180,7 @@ setTimeout(function(){
 The above code executes after 1 second.  
 
 Similarly we have **setInterval()** it executes the function/code infinitely at the specified time interval. To stop this execution we have another function called **clearInterval()**, This function takes ID to stop the execution.  
+
 Ex:  
 setInterval(function(){  
 &emsp; console.log("Hello")  
