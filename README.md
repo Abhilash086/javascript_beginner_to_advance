@@ -165,3 +165,21 @@ A callback function is a function passed into another function as an argument, w
 
 Ex:  
 ![image of code](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/main/Screenshot%202024-11-14%20131808.png?raw=true)
+
+
+## setTimeout() and setInterval()  
+
+The above 2 methods are an example of Higher order function.  
+In setTimeout() it executes the function/code after the specified time delay. We have another method related to it which is **clearTimeout()**, This function returns an **ID** we can use that ID to stop the execution.
+Ex:  
+setTimeout(function(){  
+&emsp console.log("Hello")  
+}, 1000)  
+The above code executes after 1 second.  
+
+Similarly we have **setInterval()** it executes the function/code infinitely at the specified time interval. To stop this execution we have another function called **clearInterval()**, This function takes ID to stop the execution.  
+Ex:  
+setInterval(function(){  
+&emsp console.log("Hello")  
+}, 1000)  
+The anonymous function will execute after every 1 second for infinite times.  
