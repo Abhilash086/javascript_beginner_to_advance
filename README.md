@@ -159,3 +159,5 @@ Ex:
 ### Closures  
 If we return the inner function at the end of outer function, The inner function will still have the access to outer functions variables because of lexical scoping.  
 
+### Callback Function  
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
