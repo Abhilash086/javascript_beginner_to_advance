@@ -186,3 +186,7 @@ setInterval(function(){
 &emsp; console.log("Hello")  
 }, 1000)  
 The anonymous function will execute after every 1 second for infinite times.  
+
+## Eventloop and Callback Queue  
+
+Whenever we run the code if there are any function calls available it will move the function to call stack where the function is executed but if there is an asynchronous function is called like **setTimeout()** It will be moved to webApis instead of call stack where the time delay will happen and after time elapsed, The function is then moved to Callback Queue, The Event loop will check if there are any functions available in callback queue if yes then it will check if the call stack is empty, if yes then that function will be moved to call stack to execute hence these async functions will execute after the synchronous code even though the delay is zero.  
