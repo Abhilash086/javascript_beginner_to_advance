@@ -225,3 +225,4 @@ fruits.forEach((item)=>{
 **filter()** is used to filter the elements based on certain condition and returns a new array.  
 **reduce()** is used to perform some operations on elements in arrays and return a Single value.  
 
+![](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/main/map_reduce_filter.png?raw=true)
