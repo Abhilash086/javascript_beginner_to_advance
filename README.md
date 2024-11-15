@@ -218,4 +218,10 @@ const fruits = ["apple", "banana", "cherry","Dragon fruit","Grapes"]
 
 fruits.forEach((item)=>{  
 &emsp;console.log(item)  
-})
+})  
+
+## map(), filter() and reduce()  
+**map()** is used to modify each elements in the array and return a new array, It doesnt alter the original array.  
+**filter()** is used to filter the elements based on certain condition and returns a new array.  
+**reduce()** is used to perform some operations on elements in arrays and return a Single value.  
+
