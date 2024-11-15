@@ -209,4 +209,13 @@ const user = {
 
 for (let key in user) {
 &emsp;console.log(key, user[key]);
-}
+}  
+
+## forEach()
+**forEach()** is an array method used to iterate over the arrays which takes a callback function and runs that callback function for array length times.  
+Ex:  
+const fruits = ["apple", "banana", "cherry","Dragon fruit","Grapes"]  
+
+fruits.forEach((item)=>{  
+&emsp;console.log(item)  
+})
