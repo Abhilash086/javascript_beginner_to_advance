@@ -231,10 +231,10 @@ fruits.forEach((item)=>{
 
 Event bubbling is a concept in JavaScript (and other event-driven environments) that describes the way events propagate in the DOM (Document Object Model) when an event is triggered on an element. Specifically, event bubbling refers to the behavior where an event starts from the innermost target element and "bubbles up" to the outer elements in the DOM hierarchy.  
 
-For Example if we add a 'click' event on a <div> this event triggers when clicked on <div> but it also clicked on the <body> which is its parent, document which is its grandparent and window its his ancestor so it starts from target element and propogates to window. So to avoid this we have :  
+For Example if we add a 'click' event on a '**<div>**' element  event triggers when clicked on <div> but it also clicked on the <body> which is its parent, document which is its grandparent and window its his ancestor so it starts from target element and propogates to window. So to avoid this we have :  
 **e.stopPropagation()**  
 
-How Event Bubbling Works:
+### How Event Bubbling Works:
 1. Event Triggered: When a user interacts with a DOM element, such as clicking a button or typing in an input field, an event is fired.  
 
 2. Event Propagation: The event does not just stay at the target element. Instead, it moves (or bubbles) up from the target element to its parent element, then to the parent of that element, and continues upwards until it reaches the root of the document (document).  
