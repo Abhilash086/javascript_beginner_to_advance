@@ -231,7 +231,7 @@ fruits.forEach((item)=>{
 
 Event bubbling is a concept in JavaScript (and other event-driven environments) that describes the way events propagate in the DOM (Document Object Model) when an event is triggered on an element. Specifically, event bubbling refers to the behavior where an event starts from the innermost target element and "bubbles up" to the outer elements in the DOM hierarchy.  
 
-For Example if we add a 'click' event on a div element  event triggers when clicked on div but it also clicked on the <body> which is its parent, document which is its grandparent and window its his ancestor so it starts from target element and propogates to window. So to avoid this we have :  
+For Example if we add a 'click' event on a div element  event triggers when clicked on div but it also clicked on the "body" which is its parent, "document" which is its grandparent and "window" its his ancestor so it starts from target element and propogates to window. So to avoid this we have :  
 **e.stopPropagation()**  
 
 ### How Event Bubbling Works:
@@ -240,3 +240,7 @@ For Example if we add a 'click' event on a div element  event triggers when clic
 2. Event Propagation: The event does not just stay at the target element. Instead, it moves (or bubbles) up from the target element to its parent element, then to the parent of that element, and continues upwards until it reaches the root of the document (document).  
 
 3. Handling Events at Different Levels: During this propagation process, event handlers attached to the target element, and any of its ancestor elements (parents, grandparents, etc.), will be triggered in the order the event propagates (from the target element to the root).
+
+## Event Delegation  
+
+Adding an addEventListener() to each child element individually can negatively impact performance. Instead, a more efficient approach is to attach the event listener to the parent element. Then, we can use event delegation, where the event listener on the parent checks the target of the event to apply the logic only to the relevant child elements. By using an if condition inside the event listener attached to the parent element, we can restrict the handling of events to only the child elements that meet certain criteria. This allows the parent element to handle events for its children without needing separate event listeners for each individual child, improving performance while still selectively applying the event logic based on conditions.
