@@ -226,3 +226,17 @@ fruits.forEach((item)=>{
 **reduce()** is used to perform some operations on elements in arrays and return a Single value.  
 
 ![](https://github.com/Abhilash086/javascript_beginner_to_advance/blob/main/map_reduce_filter.png?raw=true)
+
+## Event Bubbling and Event Capturing  
+
+Event bubbling is a concept in JavaScript (and other event-driven environments) that describes the way events propagate in the DOM (Document Object Model) when an event is triggered on an element. Specifically, event bubbling refers to the behavior where an event starts from the innermost target element and "bubbles up" to the outer elements in the DOM hierarchy.  
+
+For Example if we add a 'click' event on a <div> this event triggers when clicked on <div> but it also clicked on the <body> which is its parent, document which is its grandparent and window its his ancestor so it starts from target element and propogates to window. So to avoid this we have :  
+**e.stopPropagation()**  
+
+How Event Bubbling Works:
+1. Event Triggered: When a user interacts with a DOM element, such as clicking a button or typing in an input field, an event is fired.  
+
+2. Event Propagation: The event does not just stay at the target element. Instead, it moves (or bubbles) up from the target element to its parent element, then to the parent of that element, and continues upwards until it reaches the root of the document (document).  
+
+3. Handling Events at Different Levels: During this propagation process, event handlers attached to the target element, and any of its ancestor elements (parents, grandparents, etc.), will be triggered in the order the event propagates (from the target element to the root).
