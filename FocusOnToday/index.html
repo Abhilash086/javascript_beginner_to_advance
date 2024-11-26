@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus on Today</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
-        <div class="heading">
-            <h1><span>Focus on </span>Today</h1>
+      <div class="heading">
+        <h1>Focus on <span>Today</span></h1>
+      </div>
+      <div class="form-div">
+        <h2 class="form-heading">Today <span><img src="./images/sun.svg" alt=""><img src="./images/suneyes.svg" alt=""></span></h2>
+        <p class="bar-heading">Raise the bar by completing your goals!</p>
+        <div class="progress-bar">
+            <div class="progress-value">
+              <span></span>
+            </div>
         </div>
-        <div class="form-div">
-            <h2 class="form-heading">Today <span>🌞</span></h2>
-            <p class="bar-heading">Raise the bar by completing your goals!</p>
-            <div class="progress-bar"></div>
-            <p class="warning">Please set all the 3 goals!</p>
+        <p class="warning">Please set all the 3 goals!</p>
+        <div class="goal-container">
+          <div class="input-goal">
+            <div class="check-box">
+              <img class="check-icon" src="./images/check.svg" alt="">
+            </div>
+            <input type="text" id="first" placeholder="Add a new goal"/>
+          </div>
+          <div class="input-goal">
+            <div class="check-box">
+              <img class="check-icon" src="./images/check.svg" alt="">
+            </div>
+            <input type="text" id="second" placeholder="Add a new goal"/>
+          </div>
+          <div class="input-goal">
+            <div class="check-box">
+              <img class="check-icon" src="./images/check.svg" alt="">
+            </div>
+            <input type="text" id="third" placeholder="Add a new goal"/>
+          </div>
         </div>
+        <h4>“Move one step ahead, today!”</h4>
+        <p class="copyright">Made with ❤️ by Abhilash Shetty K</p>
+      </div>
     </main>
-    <script src="script.js"></script>
-</body>
+    <script src="script.js" defer></script>
+  </body>
 </html>
