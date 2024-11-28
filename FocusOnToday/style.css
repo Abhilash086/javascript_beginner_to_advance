@@ -72,6 +72,7 @@ h1 span{
 
 .progress-value span{
     padding-left: 20px;
+    min-width: max-content;
 }
 
 .show-error .warning{

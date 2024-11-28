@@ -3,13 +3,21 @@ const allInputFields = document.querySelectorAll(".input-goal input")
 const inputGoalArray = document.querySelectorAll(".input-goal")
 const showError = document.querySelector(".form-div")
 const progressValue = document.querySelector(".progress-value span")
-
+const barHeading = document.querySelector(".bar-heading")
 const allGoals = JSON.parse(localStorage.getItem("allGoals")) || {}
 let completedGoals = Object.values(allGoals).filter((goal)=> {return goal.completed}).length
+const barText = [
+    "Raise the bar by completing your goals!",
+    "Well begun is half done!",
+    "Well begun is half done!",
+    "Whoa! You just completed all the goals, time for chill :D"
+]
+
+progressValue.parentElement.style.width = `${(100/3)*completedGoals}%`
+progressValue.textContent = `${completedGoals}/3 completed`
 
 allCheckBoxes.forEach((elem)=>{
     elem.addEventListener("click",()=>{
-        let progress = 0
         const allFieldsFilled = [...allInputFields].every((input)=>{
             return input.value
         })
@@ -20,6 +28,7 @@ allCheckBoxes.forEach((elem)=>{
             elem.parentElement.classList.toggle("completed")
             allGoals[inputId].completed = !allGoals[inputId].completed
             completedGoals = Object.values(allGoals).filter((goal)=> {return goal.completed}).length
+            barHeading.innerText = barText[completedGoals]
             progressValue.textContent = `${completedGoals}/3 completed`
             progressValue.parentElement.style.width = `${(100/3)*completedGoals}%`
             localStorage.setItem("allGoals", JSON.stringify(allGoals))
