@@ -237,8 +237,19 @@
 //     selection.value = 1
 // })
 
-const card = document.querySelector(".card")
-const container = document.querySelector(".container")
-for (let i = 2; i <= 100; i++) {
-    container.appendChild(card.cloneNode()).textContent = i
-}
+// const card = document.querySelector(".card")
+// const container = document.querySelector(".container")
+// for (let i = 2; i <= 100; i++) {
+//     container.appendChild(card.cloneNode()).textContent = i
+// }
+
+
+const p = new Promise((resolve, reject)=>{
+    reject("Promise rejected")
+})
+
+p.then((data)=>{
+    console.log(data)
+}).catch((err)=>{
+    console.log(err)
+})
